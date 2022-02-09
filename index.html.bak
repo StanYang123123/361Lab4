@@ -34,19 +34,19 @@
 			</div>
 		</fieldset>	
 		<fieldset>
-		<legend>My Availability</legend>
-		<p><strong>Days Available:</strong></p>
-		<ul style="list-style: none;">
-		<li><input type="checkbox" name="available_field[]" value="Monday"><label>Monday</label></li>
-		<li><input type="checkbox" name="available_field[]" value="Tuesday"><label>Tuesday</label></li>
-		<li><input type="checkbox" name="available_field[]" value="Wednessday"><label>Wednessday</label></li>
-		<li><input type="checkbox" name="available_field[]" value="Thursday"><label>Thursday</label></li>
-		<li><input type="checkbox" name="available_field[]" value="Friday"><label>Friday</label></li>
-		<li><input type="checkbox" name="available_field[]" value="Saturday"><label>Saturday</label></li>
-		<li><input type="checkbox" name="available_field[]" value="Sunday"><label>Sunday</label></li>
-		</ul>
-		<p><strong>Any Comments?</strong></p>
-		<textarea cols="30" rows="10" name="comments_field" placeholder="Add comment here" id="our_textarea"></textarea>
+			<legend>My Availability</legend>
+			<p><strong>Days Available:</strong></p>
+				<li><input type="checkbox" name="available_field[]" value="Monday"><label>Monday</label></li>
+				<li><input type="checkbox" name="available_field[]" value="Tuesday"><label>Tuesday</label></li>
+				<li><input type="checkbox" name="available_field[]" value="Wednessday"><label>Wednessday</label></li>
+				<li><input type="checkbox" name="available_field[]" value="Thursday"><label>Thursday</label></li>
+				<li><input type="checkbox" name="available_field[]" value="Friday"><label>Friday</label></li>
+				<li><input type="checkbox" name="available_field[]" value="Saturday"><label>Saturday</label></li>
+				<li><input type="checkbox" name="available_field[]" value="Sunday"><label>Sunday</label></li>
+			<p><strong>Any Comments?</strong></p>
+			<textarea cols="30" rows="10" name="comments_field" placeholder="Add comment here" id="our_textarea"></textarea>
 		</fieldset>
+		<button type="submit" name="button">Send Me</button>
+		</form>
 	</body>
 </html>	
