@@ -9,10 +9,44 @@
 		<h1>Volunteer Form</h1>
 		<fieldset>
 			<legend>My Info</legend>
-			<p><label>First Name: <input type="text" name="first_name_field" placeholder="First name"></label></p>
-			<p><label>Last Name: <input type="text" name="last_name_field" placeholder="Last name"></label></p>
-			<p><label>Phone Number: <input type="text" name="phone_field" placeholder="Phone Number"></label></p>
-			<p><label>Email Address: <input type="email" name="email_field" placeholder="Email Address"></label></p>
-
+			<p><label><strong>First Name: </strong><input type="text" name="first_name_field" placeholder="First name"></label></p>
+			<p><label><strong>Last Name: </strong><input type="text" name="last_name_field" placeholder="Last name"></label></p>
+			<p><label><strong>Phone Number: </strong><input type="text" name="phone_field" placeholder="Phone Number"></label></p>
+			<p><label><strong>Email Address: </strong><input type="email" name="email_field" placeholder="Email Address"></label></p>
+			<div>
+				<label><strong>Gender:</strong></label>
+				<input type="radio" name="gender_field" id="Male" value="Male">
+				<label for="Male">Male</label>
+				<input type="radio" name="gender_field" id="Female" value="Female">
+				<label for="Female">Female</label>
+			</div>
+			<div>
+				<label><strong>Age:</strong></label>
+					<select name="age_field">
+						<option value="under 18">Under 18</option>
+						<option value="18-24">18-24</option>
+						<option value="25-34">25-34</option>
+						<option value="35-44">35-44</option>
+						<option value="45-54">45-54</option>
+						<option value="55-64">55-64</option>
+						<option value="over 65">65 and Over</option>
+					</select>					
+			</div>
+		</fieldset>	
+		<fieldset>
+		<legend>My Availability</legend>
+		<p><strong>Days Available:</strong></p>
+		<ul style="list-style: none;">
+		<li><input type="checkbox" name="available_field[]" value="Monday"><label>Monday</label></li>
+		<li><input type="checkbox" name="available_field[]" value="Tuesday"><label>Tuesday</label></li>
+		<li><input type="checkbox" name="available_field[]" value="Wednessday"><label>Wednessday</label></li>
+		<li><input type="checkbox" name="available_field[]" value="Thursday"><label>Thursday</label></li>
+		<li><input type="checkbox" name="available_field[]" value="Friday"><label>Friday</label></li>
+		<li><input type="checkbox" name="available_field[]" value="Saturday"><label>Saturday</label></li>
+		<li><input type="checkbox" name="available_field[]" value="Sunday"><label>Sunday</label></li>
+		</ul>
+		<p><strong>Any Comments?</strong></p>
+		<textarea cols="30" rows="10" name="comments_field" placeholder="Add comment here" id="our_textarea"></textarea>
+		</fieldset>
 	</body>
 </html>	
